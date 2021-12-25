@@ -12,5 +12,7 @@ namespace SharedModels.Models
         public string Name { get; set; }
         public string RegistrationNo { get; set; }
         public int Age { get; set; }
+        public int Marks { get; set; }
+        public string Status { get; set; }
     }
 }

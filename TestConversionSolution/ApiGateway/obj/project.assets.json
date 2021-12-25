@@ -407,11 +407,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\ApiGateway\\ApiGateway.csproj",
+      "projectUniqueName": "E:\\Test-Conversion\\TestConversionSolution\\ApiGateway\\ApiGateway.csproj",
       "projectName": "ApiGateway",
-      "projectPath": "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\ApiGateway\\ApiGateway.csproj",
+      "projectPath": "E:\\Test-Conversion\\TestConversionSolution\\ApiGateway\\ApiGateway.csproj",
       "packagesPath": "C:\\Users\\ICS-29 Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\ApiGateway\\obj\\",
+      "outputPath": "E:\\Test-Conversion\\TestConversionSolution\\ApiGateway\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ICS-29 Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

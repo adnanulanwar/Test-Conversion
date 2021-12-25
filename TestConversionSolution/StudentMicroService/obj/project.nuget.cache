@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9oHwiHMv6ftxsoCWlZOLaBL+GEwhY10GTUdPKRhLQ6GQtXP+lEZyA3BXpTpzj8KsBYpXHORFV3p33l3XFXLFNw==",
+  "dgSpecHash": "W/vmoTby43y4FrjBePabocptY3eTUxG2+3EA/EPKEUE1XtVCaPeb6i07NtH9BSiHCulT9iz6KVbqNFtVOvnyBw==",
   "success": true,
-  "projectFilePath": "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\StudentMicroService\\StudentMicroService.csproj",
+  "projectFilePath": "E:\\Test-Conversion\\TestConversionSolution\\StudentMicroService\\StudentMicroService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ICS-29 Admin\\.nuget\\packages\\automatonymous\\5.1.3\\automatonymous.5.1.3.nupkg.sha512",
     "C:\\Users\\ICS-29 Admin\\.nuget\\packages\\greenpipes\\4.0.1\\greenpipes.4.0.1.nupkg.sha512",

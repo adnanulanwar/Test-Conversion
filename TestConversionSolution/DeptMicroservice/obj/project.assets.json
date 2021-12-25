@@ -1112,11 +1112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\DeptMicroservice\\DeptMicroservice.csproj",
+      "projectUniqueName": "E:\\Test-Conversion\\TestConversionSolution\\DeptMicroservice\\DeptMicroservice.csproj",
       "projectName": "DeptMicroservice",
-      "projectPath": "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\DeptMicroservice\\DeptMicroservice.csproj",
+      "projectPath": "E:\\Test-Conversion\\TestConversionSolution\\DeptMicroservice\\DeptMicroservice.csproj",
       "packagesPath": "C:\\Users\\ICS-29 Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\DeptMicroservice\\obj\\",
+      "outputPath": "E:\\Test-Conversion\\TestConversionSolution\\DeptMicroservice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ICS-29 Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1133,8 +1133,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj": {
-              "projectPath": "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj"
+            "E:\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj": {
+              "projectPath": "E:\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj"
             }
           }
         }

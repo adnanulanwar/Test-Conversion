@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using SharedModels.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,6 +38,7 @@ namespace StudentMicroService
                         h.Password("guest");
                     });
                 }));
+                x.AddRequestClient<Student>();
             });
             services.AddMassTransitHostedService();
 

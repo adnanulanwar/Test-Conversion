@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj": {}
+    "E:\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj": {}
   },
   "projects": {
-    "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj": {
+    "E:\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj",
+        "projectUniqueName": "E:\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj",
         "projectName": "SharedModels",
-        "projectPath": "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj",
+        "projectPath": "E:\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj",
         "packagesPath": "C:\\Users\\ICS-29 Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\SharedModels\\obj\\",
+        "outputPath": "E:\\Test-Conversion\\TestConversionSolution\\SharedModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ICS-29 Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

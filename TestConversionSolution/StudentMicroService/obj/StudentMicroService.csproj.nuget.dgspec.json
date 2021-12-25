@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\StudentMicroService\\StudentMicroService.csproj": {}
+    "E:\\Test-Conversion\\TestConversionSolution\\StudentMicroService\\StudentMicroService.csproj": {}
   },
   "projects": {
-    "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj": {
+    "E:\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj",
+        "projectUniqueName": "E:\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj",
         "projectName": "SharedModels",
-        "projectPath": "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj",
+        "projectPath": "E:\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj",
         "packagesPath": "C:\\Users\\ICS-29 Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\SharedModels\\obj\\",
+        "outputPath": "E:\\Test-Conversion\\TestConversionSolution\\SharedModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ICS-29 Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\StudentMicroService\\StudentMicroService.csproj": {
+    "E:\\Test-Conversion\\TestConversionSolution\\StudentMicroService\\StudentMicroService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\StudentMicroService\\StudentMicroService.csproj",
+        "projectUniqueName": "E:\\Test-Conversion\\TestConversionSolution\\StudentMicroService\\StudentMicroService.csproj",
         "projectName": "StudentMicroService",
-        "projectPath": "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\StudentMicroService\\StudentMicroService.csproj",
+        "projectPath": "E:\\Test-Conversion\\TestConversionSolution\\StudentMicroService\\StudentMicroService.csproj",
         "packagesPath": "C:\\Users\\ICS-29 Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\StudentMicroService\\obj\\",
+        "outputPath": "E:\\Test-Conversion\\TestConversionSolution\\StudentMicroService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ICS-29 Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj": {
-                "projectPath": "E:\\Practice-Projects\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj"
+              "E:\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj": {
+                "projectPath": "E:\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj"
               }
             }
           }

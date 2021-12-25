@@ -40,7 +40,7 @@ namespace DeptMicroservice
                         h.Username("guest");
                         h.Password("guest");
                     });
-                    cur.ReceiveEndpoint("studentQueue", oq =>
+                    cur.ReceiveEndpoint("studentQueueresponse", oq =>
                     {
                         oq.PrefetchCount = 20;
                         oq.UseMessageRetry(r => r.Interval(2, 100));

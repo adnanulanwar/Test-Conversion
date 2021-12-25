@@ -10,3 +10,15 @@ E:\Practice-Projects\Test-Conversion\TestConversionSolution\SharedModels\obj\Deb
 E:\Practice-Projects\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\SharedModels.dll
 E:\Practice-Projects\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\ref\SharedModels.dll
 E:\Practice-Projects\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\SharedModels.pdb
+E:\Test-Conversion\TestConversionSolution\SharedModels\bin\Debug\net5.0\SharedModels.deps.json
+E:\Test-Conversion\TestConversionSolution\SharedModels\bin\Debug\net5.0\SharedModels.dll
+E:\Test-Conversion\TestConversionSolution\SharedModels\bin\Debug\net5.0\ref\SharedModels.dll
+E:\Test-Conversion\TestConversionSolution\SharedModels\bin\Debug\net5.0\SharedModels.pdb
+E:\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\SharedModels.csproj.AssemblyReference.cache
+E:\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\SharedModels.GeneratedMSBuildEditorConfig.editorconfig
+E:\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\SharedModels.AssemblyInfoInputs.cache
+E:\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\SharedModels.AssemblyInfo.cs
+E:\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\SharedModels.csproj.CoreCompileInputs.cache
+E:\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\SharedModels.dll
+E:\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\ref\SharedModels.dll
+E:\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\SharedModels.pdb
