@@ -5,13 +5,19 @@ VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{8FC6157D-919E-45A7-85E2-0A3F2D78E8BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentMicroService", "StudentMicroService\StudentMicroService.csproj", "{77033E05-82C8-411D-BB4D-FD589A63F1C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentMicroService", "StudentMicroService\StudentMicroService.csproj", "{77033E05-82C8-411D-BB4D-FD589A63F1C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeptMicroservice", "DeptMicroservice\DeptMicroservice.csproj", "{3BDF4565-BBCE-40AD-A3E6-FF42B7EFC676}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeptMicroservice", "DeptMicroservice\DeptMicroservice.csproj", "{3BDF4565-BBCE-40AD-A3E6-FF42B7EFC676}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{3CF0C2BA-9715-45E7-9A48-045D4B3E93FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{3CF0C2BA-9715-45E7-9A48-045D4B3E93FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedModels", "SharedModels\SharedModels.csproj", "{C47444A3-BE00-4ABE-9363-9A8AB1A80482}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedModels", "SharedModels\SharedModels.csproj", "{C47444A3-BE00-4ABE-9363-9A8AB1A80482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginMicroservice", "LoginMicroservice\LoginMicroservice.csproj", "{8DAFB8B7-7EF5-4F82-858A-0F3895A2067C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherMicroservice", "TeacherMicroservice\TeacherMicroservice.csproj", "{826C6832-1FE8-4DB3-9697-5BD243B1360C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedMicroservice", "SharedMicroservice\SharedMicroservice.csproj", "{41BFE886-AD62-4A21-AF8D-CF4EB9F9890E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +41,18 @@ Global
 		{C47444A3-BE00-4ABE-9363-9A8AB1A80482}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C47444A3-BE00-4ABE-9363-9A8AB1A80482}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C47444A3-BE00-4ABE-9363-9A8AB1A80482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DAFB8B7-7EF5-4F82-858A-0F3895A2067C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DAFB8B7-7EF5-4F82-858A-0F3895A2067C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DAFB8B7-7EF5-4F82-858A-0F3895A2067C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DAFB8B7-7EF5-4F82-858A-0F3895A2067C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{826C6832-1FE8-4DB3-9697-5BD243B1360C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{826C6832-1FE8-4DB3-9697-5BD243B1360C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{826C6832-1FE8-4DB3-9697-5BD243B1360C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{826C6832-1FE8-4DB3-9697-5BD243B1360C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41BFE886-AD62-4A21-AF8D-CF4EB9F9890E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41BFE886-AD62-4A21-AF8D-CF4EB9F9890E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41BFE886-AD62-4A21-AF8D-CF4EB9F9890E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41BFE886-AD62-4A21-AF8D-CF4EB9F9890E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +60,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{77033E05-82C8-411D-BB4D-FD589A63F1C5} = {8FC6157D-919E-45A7-85E2-0A3F2D78E8BF}
 		{3BDF4565-BBCE-40AD-A3E6-FF42B7EFC676} = {8FC6157D-919E-45A7-85E2-0A3F2D78E8BF}
+		{8DAFB8B7-7EF5-4F82-858A-0F3895A2067C} = {8FC6157D-919E-45A7-85E2-0A3F2D78E8BF}
+		{826C6832-1FE8-4DB3-9697-5BD243B1360C} = {8FC6157D-919E-45A7-85E2-0A3F2D78E8BF}
+		{41BFE886-AD62-4A21-AF8D-CF4EB9F9890E} = {8FC6157D-919E-45A7-85E2-0A3F2D78E8BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D25C3A10-E08A-4D73-BF77-73DD8089ADE8}

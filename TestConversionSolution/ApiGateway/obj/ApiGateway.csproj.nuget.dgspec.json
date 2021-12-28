@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Test-Conversion\\TestConversionSolution\\ApiGateway\\ApiGateway.csproj": {}
+    "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\ApiGateway\\ApiGateway.csproj": {}
   },
   "projects": {
-    "E:\\Test-Conversion\\TestConversionSolution\\ApiGateway\\ApiGateway.csproj": {
+    "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\ApiGateway\\ApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Test-Conversion\\TestConversionSolution\\ApiGateway\\ApiGateway.csproj",
+        "projectUniqueName": "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\ApiGateway\\ApiGateway.csproj",
         "projectName": "ApiGateway",
-        "projectPath": "E:\\Test-Conversion\\TestConversionSolution\\ApiGateway\\ApiGateway.csproj",
-        "packagesPath": "C:\\Users\\ICS-29 Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Test-Conversion\\TestConversionSolution\\ApiGateway\\obj\\",
+        "projectPath": "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\ApiGateway\\ApiGateway.csproj",
+        "packagesPath": "C:\\Users\\ICS-16 Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\ApiGateway\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ICS-29 Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ICS-16 Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

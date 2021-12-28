@@ -38,7 +38,9 @@ namespace StudentMicroService
                         h.Password("guest");
                     });
                 }));
+                x.AddRequestClient<LoginModel>();
                 x.AddRequestClient<Student>();
+                x.AddRequestClient<CountryInfo>();
             });
             services.AddMassTransitHostedService();
 

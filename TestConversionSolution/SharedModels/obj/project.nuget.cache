@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DSuY7rnYZhKxD34B1VYrR8JuL4tJNS0kFGXCVsAOJo/gFeh3FdJ0IpC/xRr4u+vCECnr7kLMCysoMSGzMvDCCg==",
+  "dgSpecHash": "GdkTLYWEEi9P+x+V3CgBPtXlxanBCg7dpZOi6/8BgNqe5Q0BtgeYnPSDhHdSyvAwmo0pN6qp+PSaqpTz/D1Crw==",
   "success": true,
-  "projectFilePath": "E:\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj",
+  "projectFilePath": "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

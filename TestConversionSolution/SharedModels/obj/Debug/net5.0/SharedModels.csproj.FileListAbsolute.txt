@@ -22,3 +22,15 @@ E:\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\SharedMo
 E:\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\SharedModels.dll
 E:\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\ref\SharedModels.dll
 E:\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\SharedModels.pdb
+D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\SharedModels\bin\Debug\net5.0\SharedModels.deps.json
+D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\SharedModels\bin\Debug\net5.0\SharedModels.dll
+D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\SharedModels\bin\Debug\net5.0\ref\SharedModels.dll
+D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\SharedModels\bin\Debug\net5.0\SharedModels.pdb
+D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\SharedModels.csproj.AssemblyReference.cache
+D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\SharedModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\SharedModels.AssemblyInfoInputs.cache
+D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\SharedModels.AssemblyInfo.cs
+D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\SharedModels.csproj.CoreCompileInputs.cache
+D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\SharedModels.dll
+D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\ref\SharedModels.dll
+D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\SharedModels\obj\Debug\net5.0\SharedModels.pdb

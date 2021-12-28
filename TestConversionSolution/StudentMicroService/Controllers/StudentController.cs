@@ -1,6 +1,7 @@
 ﻿using MassTransit;
 using Microsoft.AspNetCore.Mvc;
 using SharedModels.Models;
+using SharedModels.Models.CountryInfoList;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -13,10 +14,19 @@ namespace StudentMicroService.Controllers
     {
         private readonly IBus _busService;
         private readonly IRequestClient<Student> _client;
-        public StudentController(IBus busService, IRequestClient<Student> client)
+        private readonly IRequestClient<LoginModel> _loginClient;
+        private readonly IRequestClient<CountryInfo> _sharedClient;
+        public StudentController(
+            IBus busService,
+            IRequestClient<Student> client,
+            IRequestClient<LoginModel> loginClient,
+            IRequestClient<CountryInfo> sharedClient
+            )
         {
             _busService = busService;
             _client = client;
+            _loginClient = loginClient;
+            _sharedClient = sharedClient;
         }
 
 
@@ -55,7 +65,7 @@ namespace StudentMicroService.Controllers
                 var request = _client.Create(student); // creating a request 
                 var response = await request.GetResponse<Student>(); // Getting or requesting a response by Object type
 
-                return await Task.FromResult<Student>(response.Message); 
+                return await Task.FromResult<Student>(response.Message);
                 #endregion
             }
 
@@ -65,13 +75,52 @@ namespace StudentMicroService.Controllers
 
 
         [HttpPost("ResulCalc")]
-        public async Task<string>  ResultCalculation(Student student)
+        public async Task<string> ResultCalculation(Student student)
         {
             var request = _client.Create(student);
             var response = await request.GetResponse<Student>();
 
             return await Task.FromResult(response.Message.Status);
         }
+
+
+
+
+        [HttpPost("StudentLogin")]
+        public async Task<string> StudentLogin(LoginModel login)
+        {
+            var request = _loginClient.Create(login);
+            var response = await request.GetResponse<LoginModel>();
+            var message = response.Message;
+
+            return await Task.FromResult(message.Message);
+        }
+
+        //[HttpGet("Countries")]
+        //public async Task<List<CountryInfo>> Countries()
+        //{
+        //    CountryInfo country = new CountryInfo();
+        //    var request = _sharedClient.Create(country);
+        //    var response = await request.GetResponse<CountryInfo>();
+        //    List<CountryInfo> countries = response.Message.countryInfos;
+        //    return countries;
+
+        //}
+
+
+
+
+
+        [HttpGet("Countries")]
+        public async Task<IActionResult> Countries()
+        {
+            CountryInfo country = new CountryInfo();
+            var request = _sharedClient.Create(country);
+            var response = await request.GetResponse<Countries>();
+            return Ok(response);
+
+        }
+
 
 
 

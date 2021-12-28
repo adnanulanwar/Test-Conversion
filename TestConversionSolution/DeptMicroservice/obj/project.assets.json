@@ -1107,19 +1107,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ICS-29 Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\ICS-16 Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Test-Conversion\\TestConversionSolution\\DeptMicroservice\\DeptMicroservice.csproj",
+      "projectUniqueName": "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\DeptMicroservice\\DeptMicroservice.csproj",
       "projectName": "DeptMicroservice",
-      "projectPath": "E:\\Test-Conversion\\TestConversionSolution\\DeptMicroservice\\DeptMicroservice.csproj",
-      "packagesPath": "C:\\Users\\ICS-29 Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\Test-Conversion\\TestConversionSolution\\DeptMicroservice\\obj\\",
+      "projectPath": "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\DeptMicroservice\\DeptMicroservice.csproj",
+      "packagesPath": "C:\\Users\\ICS-16 Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\DeptMicroservice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ICS-29 Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ICS-16 Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1133,8 +1133,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj": {
-              "projectPath": "E:\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj"
+            "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj": {
+              "projectPath": "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj"
             }
           }
         }
@@ -1184,7 +1184,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
