@@ -30,6 +30,20 @@ namespace LoginMicroservice
         {
             services.AddMassTransit(x =>
             {
+                //services.AddScoped<IMyDependency, MyDependency>(); //register dependency
+
+                //services.AddConsumer<MyConsumer>();
+
+                //x.UsingRabbitMq((context, cfg) =>
+                //{
+                //    cfg.ReceiveEndpoint("input-queue", e =>
+                //    {
+                //        e.UseConsumeFilter(typeof(MyConsumeFilter<>), context); //generic filter
+
+                //        e.ConfigureConsumer<MyConsumer>();
+                //    });
+                //});
+
                 x.AddConsumer<LoginConsumer>();
                 x.AddBus(provider => Bus.Factory.CreateUsingRabbitMq(cur =>
                 {

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EU5CpLUM2gzOHb/zsuJ1Kx6d2Awpsn2UEfGY9vY1+PooJ3Xpglxz5EXmEbi7Wt6btVZGahocgBeXq2dF6Wphng==",
+  "dgSpecHash": "7oKo9Y4oZ/16pvxcoTyBqvsDqlU6wSx97x72KCySAdQ8EnMdE7BNO8DWrV/bKPuoM4YN8+kbZadVUIoyp+7jkA==",
   "success": true,
   "projectFilePath": "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\DeptMicroservice\\DeptMicroservice.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ICS-16 Admin\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\ICS-16 Admin\\.nuget\\packages\\automatonymous\\5.1.3\\automatonymous.5.1.3.nupkg.sha512",
     "C:\\Users\\ICS-16 Admin\\.nuget\\packages\\greenpipes\\4.0.1\\greenpipes.4.0.1.nupkg.sha512",
     "C:\\Users\\ICS-16 Admin\\.nuget\\packages\\masstransit\\7.3.0\\masstransit.7.3.0.nupkg.sha512",

@@ -33,8 +33,10 @@
     ".NETCoreApp,Version=v5.0": {
       "DeptMicroservice/1.0.0": {
         "dependencies": {
+          "Autofac": "6.3.0",
           "MassTransit": "7.3.0",
           "MassTransit.AspNetCore": "7.3.0",
+          "MassTransit.Extensions.DependencyInjection": "7.3.0",
           "MassTransit.RabbitMQ": "7.3.0",
           "SharedModels": "1.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
@@ -326,6 +328,20 @@
         },
         "compile": {
           "DeptMicroservice.dll": {}
+        }
+      },
+      "Autofac/6.3.0": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "runtime": {
+          "lib/net5.0/Autofac.dll": {
+            "assemblyVersion": "6.3.0.0",
+            "fileVersion": "6.3.0.0"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Autofac.dll": {}
         }
       },
       "Automatonymous/5.1.3": {
@@ -2309,6 +2325,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Autofac/6.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gO4bli0N8tDnBHzbYktcnbXlmN6T+IT5W+FUGgCUaM6pwwHXIxOPoUGvfGum7sZpJJgfQNgjFFv80ZPuARgRdA==",
+      "path": "autofac/6.3.0",
+      "hashPath": "autofac.6.3.0.nupkg.sha512"
     },
     "Automatonymous/5.1.3": {
       "type": "package",

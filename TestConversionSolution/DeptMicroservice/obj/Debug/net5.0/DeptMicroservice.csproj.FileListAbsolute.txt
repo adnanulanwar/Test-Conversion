@@ -127,3 +127,4 @@ D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\Dep
 D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\DeptMicroservice\obj\Debug\net5.0\ref\DeptMicroservice.dll
 D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\DeptMicroservice\obj\Debug\net5.0\DeptMicroservice.pdb
 D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\DeptMicroservice\obj\Debug\net5.0\DeptMicroservice.genruntimeconfig.cache
+D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\DeptMicroservice\bin\Debug\net5.0\Autofac.dll

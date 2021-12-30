@@ -25,7 +25,6 @@ D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\Sha
 D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\SharedMicroservice\bin\Debug\net5.0\System.Text.Json.dll
 D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\SharedMicroservice\bin\Debug\net5.0\SharedModels.dll
 D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\SharedMicroservice\bin\Debug\net5.0\SharedModels.pdb
-D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\SharedMicroservice\obj\Debug\net5.0\SharedMicroservice.csproj.AssemblyReference.cache
 D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\SharedMicroservice\obj\Debug\net5.0\SharedMicroservice.GeneratedMSBuildEditorConfig.editorconfig
 D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\SharedMicroservice\obj\Debug\net5.0\SharedMicroservice.AssemblyInfoInputs.cache
 D:\WorkStation\Naim\Practice\RabbitMQ\Test-Conversion\TestConversionSolution\SharedMicroservice\obj\Debug\net5.0\SharedMicroservice.AssemblyInfo.cs

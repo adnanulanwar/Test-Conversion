@@ -1,6 +1,8 @@
 using DeptMicroservice.Consumers;
+using DeptMicroservice.WrapperConsumer;
 using GreenPipes;
 using MassTransit;
+using MassTransit.ExtensionsDependencyInjectionIntegration.MultiBus;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -9,9 +11,11 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using SharedModels.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace DeptMicroservice
@@ -28,10 +32,13 @@ namespace DeptMicroservice
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var interfaceType = typeof(IEvent);
+            var consumerTypes = AppDomain.CurrentDomain.GetAssemblies().SelectMany(x => x.GetTypes())
+                .Where(x => interfaceType.IsAssignableFrom(x) && !x.IsInterface && !x.IsAbstract)
+                .ToList();
 
             services.AddMassTransit(x =>
             {
-                x.AddConsumer<StudentConsumer>();
                 x.AddBus(provider => Bus.Factory.CreateUsingRabbitMq(cur =>
                 {
                     //cur.UseHealthCheck(provider);
@@ -40,14 +47,14 @@ namespace DeptMicroservice
                         h.Username("guest");
                         h.Password("guest");
                     });
-                    cur.ReceiveEndpoint("studentQueueresponse", oq =>
+                    cur.ReceiveEndpoint("loginQueueresponse", oq =>
                     {
                         oq.PrefetchCount = 20;
                         oq.UseMessageRetry(r => r.Interval(2, 100));
-                        oq.ConfigureConsumer<StudentConsumer>(provider);
                     });
                 }));
             });
+            services.AddSingleton(typeof(StudentConsumer<>), typeof(IConsumer<>));
             services.AddMassTransitHostedService();
 
             services.AddControllers();
@@ -56,6 +63,35 @@ namespace DeptMicroservice
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "DeptMicroservice", Version = "v1" });
             });
         }
+
+
+
+        //public IServiceCollectionConfigurator ConfigureMassTransitConsumers(this IServiceCollectionConfigurator serviceConfigurator, Assembly assembly)
+        //{
+        //    foreach (var type in assembly.GetTypes())
+        //    {
+        //        var attributes = type.GetCustomAttributes(typeof(RegisterCommandConsumerAttribute), false);
+        //        if (attributes.Length <= 0) continue;
+        //        foreach (var attribute in attributes)
+        //        {
+        //            if (attribute is RegisterCommandConsumerAttribute registerCommandConsumerAttribute)
+        //            {
+        //                Type consumerType = typeof(CommandConsumer<>).MakeGenericType(registerCommandConsumerAttribute.CommandType);
+        //                Type consumerDefinitionType = typeof(CommandConsumerDefinition<>).MakeGenericType(registerCommandConsumerAttribute.CommandType);
+        //                serviceConfigurator.AddConsumer(consumerType, consumerDefinitionType);
+        //            }
+        //        }
+        //    }
+        //    return serviceConfigurator;
+        //}
+
+
+
+
+
+
+
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

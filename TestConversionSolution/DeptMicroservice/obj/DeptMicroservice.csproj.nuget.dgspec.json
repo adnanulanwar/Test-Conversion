@@ -44,11 +44,19 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
             "MassTransit": {
               "target": "Package",
               "version": "[7.3.0, )"
             },
             "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "MassTransit.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[7.3.0, )"
             },
