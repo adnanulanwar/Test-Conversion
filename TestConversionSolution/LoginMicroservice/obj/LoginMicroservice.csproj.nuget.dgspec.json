@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\LoginMicroservice\\LoginMicroservice.csproj": {}
+    "C:\\Test-Conversion\\TestConversionSolution\\LoginMicroservice\\LoginMicroservice.csproj": {}
   },
   "projects": {
-    "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\LoginMicroservice\\LoginMicroservice.csproj": {
+    "C:\\Test-Conversion\\TestConversionSolution\\LoginMicroservice\\LoginMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\LoginMicroservice\\LoginMicroservice.csproj",
+        "projectUniqueName": "C:\\Test-Conversion\\TestConversionSolution\\LoginMicroservice\\LoginMicroservice.csproj",
         "projectName": "LoginMicroservice",
-        "projectPath": "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\LoginMicroservice\\LoginMicroservice.csproj",
-        "packagesPath": "C:\\Users\\ICS-16 Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\LoginMicroservice\\obj\\",
+        "projectPath": "C:\\Test-Conversion\\TestConversionSolution\\LoginMicroservice\\LoginMicroservice.csproj",
+        "packagesPath": "C:\\Users\\Adnanul Anwar\\.nuget\\packages\\",
+        "outputPath": "C:\\Test-Conversion\\TestConversionSolution\\LoginMicroservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ICS-16 Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Adnanul Anwar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj": {
-                "projectPath": "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj"
+              "C:\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj": {
+                "projectPath": "C:\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj"
               }
             }
           }
@@ -79,21 +79,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj": {
+    "C:\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj",
+        "projectUniqueName": "C:\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj",
         "projectName": "SharedModels",
-        "projectPath": "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj",
-        "packagesPath": "C:\\Users\\ICS-16 Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\WorkStation\\Naim\\Practice\\RabbitMQ\\Test-Conversion\\TestConversionSolution\\SharedModels\\obj\\",
+        "projectPath": "C:\\Test-Conversion\\TestConversionSolution\\SharedModels\\SharedModels.csproj",
+        "packagesPath": "C:\\Users\\Adnanul Anwar\\.nuget\\packages\\",
+        "outputPath": "C:\\Test-Conversion\\TestConversionSolution\\SharedModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ICS-16 Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Adnanul Anwar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -133,7 +133,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
